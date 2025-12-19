@@ -3,7 +3,7 @@ title: Event dispatching
 ---
 As an alternative to using function props, the `events` object insructs r2wc to dispatch a corresponding DOM event that can be listened to on the custom element itself, on ancestor elements using `bubbles`, and outside of any containing shadow DOM using `composed`.
 
-```js
+```jsx
 function ThemeSelect({ onSelect }) {
   return (
     <div>

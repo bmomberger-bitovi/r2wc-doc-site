@@ -88,7 +88,8 @@ document.body.innerHTML =
 console.log(document.body.firstElementChild.innerHTML) // "<h1>Hello, Christopher</h1>"
 ```
 
-This is a legacy behavior.  We do not recommend using PropTypes to configure React to Web Component, since PropTypes are usually removed in production, interfering with the prop conversions.
+<!-- TODO make this stand out more -->
+:::tip This is a legacy behavior.  We do not recommend using PropTypes to configure React to Web Component, since PropTypes are usually removed in production, interfering with the prop conversions.:::
 
 If `options.props` is specified, R2WC will use those props instead of the keys from propTypes. If it's an array, all corresponding kebab-case attr values will be passed as strings to the underlying React component.
 
